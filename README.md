@@ -4,7 +4,7 @@
 - Assurez-vous que vous avez installé Python 3.8+. (Je l'ai développé avec Python 3.10.0)
 
 ### 2. Clone
-Ouvrez votre terminal, et exécutez les commandes suivantes :
+- Ouvrez votre terminal, et exécutez les commandes suivantes :
 ```bash
 git clone https://github.com/Matthieu946/Cesar
 cd Cesar
