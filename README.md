@@ -5,11 +5,21 @@
 ## Manual installation
 - Assurez-vous que vous avez installé Python 3.8+. (Je l'ai développé avec Python 3.10.0)
 
-### 2. Clone
+### 1. Clone
 - Ouvrez votre terminal, et exécutez les commandes suivantes :
 ```bash
 git clone https://github.com/Matthieu946/Cesar
 cd Cesar
+```
+
+### 2. Run
+- Windows
+```bash
+python Cesar.py
+```
+- Distribution linux
+```bash
+python3 Cesar.py
 ```
 
 <p align="center"> 
