@@ -1,3 +1,5 @@
+![screenshot](https://www.canva.com/design/DAE261mgdMo/dtX_C0maFuwn3ZWfhDQl6w/edit)
+
 # Installation
 
 ## Manual installation
