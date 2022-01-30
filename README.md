@@ -6,8 +6,8 @@
 ### 2. Clone
 Ouvrez votre terminal, et exécutez les commandes suivantes :
 ```bash
-git clone https://github.com/mxrch/ghunt
-cd ghunt
+git clone https://github.com/Matthieu946/Cesar
+cd Cesar
 ```
 
 <p align="center"> 
