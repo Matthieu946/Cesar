@@ -75,7 +75,7 @@ if choix =="2":
                                      |___/|_|             |___/      
     
                     [->] Entrer le message a decrypter : """)
-
+    system("cls")
     clef2 = int(input("""
     
                                          _       __ 
@@ -106,3 +106,5 @@ if choix =="2":
     fichier = open("text_decrypter.txt", "a")
     fichier.write(final2)
     fichier.close()
+    time_duration = 5
+    time.sleep(time_duration)
