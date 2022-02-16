@@ -3,7 +3,7 @@
 # Installation
 
 ## Manual installation
-- Assurez-vous que vous avez installé Python 3.8+. (Je l'ai développé avec Python 3.10.0)
+- Assurez-vous que vous avez installé Python 3.8+. (Je l'ai développé avec Python 3.10.2)
 
 ### 1. Clone
 - Ouvrez votre terminal, et exécutez les commandes suivantes :
