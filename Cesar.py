@@ -37,10 +37,6 @@ if choix == "1":
       \___|_|\___|_|  
                                 
 [->] Entrer la clef : """))
-    message = [(ord(i)+clef) for i in cryptage]
-    message_crypter = [chr(i) for i in message]
-    final = "".join(message_crypter)
-
     loadbarwidth = 23
 
     for i in range(1, loadbarwidth + 1):
@@ -55,7 +51,9 @@ if choix == "1":
         print(strbarwidth ,end = '')
 
     print()
-
+    message = [(ord(i)+clef) for i in cryptage]
+    message_crypter = [chr(i) for i in message]
+    final = "".join(message_crypter)
     print(final)
     fichier = open("text_crypter.txt", "a")
     fichier.write(final)
@@ -85,12 +83,7 @@ if choix =="2":
                                     \___|_|\___|_|  
                                 
                                 [->] Entrer la clef : """))
-    message2 = [(ord(i)-clef2) for i in decryptage]
-    message_decrypter2 = [chr(i) for i in message2]
-    final2 = "".join(message_decrypter2)
-    print(final2)
     loadbarwidth = 23
-
     for i in range(1, loadbarwidth + 1):
         time.sleep(0.001) 
 
@@ -103,6 +96,10 @@ if choix =="2":
         print(strbarwidth ,end = '')
 
     print()
+    message2 = [(ord(i)-clef2) for i in decryptage]
+    message_decrypter2 = [chr(i) for i in message2]
+    final2 = "".join(message_decrypter2)
+    print(final2)
     fichier = open("text_decrypter.txt", "a")
     fichier.write(final2)
     fichier.close()
